@@ -8,7 +8,7 @@ int main()
 	cin >> num1;
 	
     if (num1 >= 0){
-    cout << sqrt(num1) << " e a raiz de " << num1;
+    cout << sqrt(num1) << " e a raiz de " << num1 <<".";
 	}
 	if (num1 < 0){
 		int quadrado = 0;
@@ -16,7 +16,8 @@ int main()
 		cout << "O quadrado de " << num1 << " e " << quadrado;
 		
 	}
-    return 0;
-    //comando em tecla
+	//comando em tecla
 	system ("pause");
+    return 0;
+    
 }
